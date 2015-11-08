@@ -11,7 +11,7 @@ class OrderItem extends Model implements Transformable
     use TransformableTrait;
 
     protected $fillable = [
-        'produt_id',
+        'product_id',
         'order_id',
         'price',
         'qtd'
